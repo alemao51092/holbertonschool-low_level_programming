@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main-main function
- *Retrurn: Always0
+ * main -main function
+ * Return - Always0
  */
 int main(void)
 {
