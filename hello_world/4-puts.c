@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main -main function
- * Return - Always0
+ * main - main function
+ * Description: 'betty'
+ * Return: Always 0
  */
 int main(void)
 {
