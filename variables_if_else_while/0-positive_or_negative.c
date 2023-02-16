@@ -3,16 +3,21 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int n= 0; 
+ 
 int main(void)
 {
-	if (n<0){
+	int n = 0;
+	
+	if (n < 0)
+	{
 		printf("is negative");
 	}
-	if (n==0){
+	if (n = 0)
+	{
 		printf("is zero");
 	}
-	else{
+	else
+	{
 		printf("is positive");
 	}
 		return (0);
