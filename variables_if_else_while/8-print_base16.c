@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char *base16 ="0123456789abcdef";
+	char *base16 = "0123456789abcdef";
 	int num;
 
-	for (num = 0; num < 17; num++)
+	for (num = 0; num < 16; num++)
 		putchar(base16[num]);
 	putchar(10);
 	return (0);
