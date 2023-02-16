@@ -1,24 +1,23 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
- 
+/**
+ * main - main function
+ * Description: if , else , worck.
+ * Return: 0
+ */
 int main(void)
 {
-	int n = 0;
-	
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
 	if (n < 0)
-	{
 		printf("is negative");
-	}
-	if (n == 0)
-	{
+	else if (n == 0)
 		printf("is zero");
-	}
 	else
-	{
 		printf("is positive");
-	}
-		return (0);
+	return (0);
 }
