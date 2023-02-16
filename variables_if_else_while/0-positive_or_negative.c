@@ -12,7 +12,7 @@ int main(void)
 	{
 		printf("is negative");
 	}
-	if (n = 0)
+	if (n == 0)
 	{
 		printf("is zero");
 	}
