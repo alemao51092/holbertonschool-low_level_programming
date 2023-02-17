@@ -1,15 +1,14 @@
-#include "main.h"
 #include <stdio.h>
 /**
  *main - main function
  *Description: Alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char=letters
+	char i;
 
-	for (i = a; i <= z i++)
-		putchar (i)
-		putchar(\n)
+	for (i = "a"; i <= "z"; i++);
+		putchar (i);
+		putchar ("\n");
 }
