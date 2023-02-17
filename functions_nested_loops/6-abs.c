@@ -4,6 +4,7 @@
  * _abs - main function
  * Description: Valor Absoluto
  * @x: numeros
+ * Return: 0
  */
 int _abs(int x)
 {
