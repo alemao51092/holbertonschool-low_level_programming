@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
-/*+
- * abs - main function
+/**
+ * _abs - main function
  * Description: Valor Absoluto
  * @x: numeros
  */
