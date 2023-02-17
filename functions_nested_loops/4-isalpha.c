@@ -2,6 +2,7 @@
 #include <ctype.h>
 /**
  * _isalpha - main function
+ * @c:letter
  * Description: if is a letter
  * Return: 0
  */
