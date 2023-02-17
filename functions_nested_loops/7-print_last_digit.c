@@ -4,6 +4,7 @@
  * print_last_digit - main function
  * Description: last digit
  * Return: last digit
+ * @n: char
  */
 int print_last_digit(int n)
 {
