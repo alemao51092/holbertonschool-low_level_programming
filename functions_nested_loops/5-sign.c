@@ -16,6 +16,7 @@ int print_sign(int n)
 	{
 		putchar (48);
 		return (0);
+	}	
 	if (n < 0)
 	{
 		putchar (45);
