@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * add - main function
- * @n: character
  * @x1: char
  * @x2: chara
  * Return: 0
