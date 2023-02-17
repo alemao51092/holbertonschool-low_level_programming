@@ -1,1 +1,1 @@
-j
+void print_alphabet(void);
