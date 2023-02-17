@@ -3,13 +3,13 @@
 /**
  * add - main function
  * @n: character
- * @n1: char
- * @n2: chara
+ * @x1: char
+ * @x2: chara
  * Return: 0
 */
-int add(int n1, int n2)
+int add(int x1, int x2)
 {
-	int n = n1 + n2;
+	int n = x1 + x2;
 
 	return (n);
 }
