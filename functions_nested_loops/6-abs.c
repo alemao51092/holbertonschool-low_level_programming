@@ -3,11 +3,10 @@
 /*+
  * abs - main function
  * Description: Valor Absoluto
- * @int:
+ * @x: numeros
  */
-int _abs(int)
+int _abs(int x)
 {
-	int abs(int x);
-	return (x);
+	return (abs(x));
 }
 
