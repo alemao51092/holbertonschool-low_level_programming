@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *_isdgit - main function
+ *_isdigit - main function
  *@c: charac
  *Description: is a digit
  *Return: 0
