@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * more_numbers - main function
- * @i: charac
  * Description: Print 10 1 to 14
- * @n: char
  * Return: empty
  */
 void more_numbers(void)
