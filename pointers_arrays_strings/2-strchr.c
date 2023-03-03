@@ -10,6 +10,8 @@ char *_strchr(char *s, char c)
 {
 	int i;
 	char *j = NULL;
+	
+	if (s != '\0')
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
