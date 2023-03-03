@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ * _strchr - main function
+ * @s: char
+ * @c: char1
+ * Description: locate a char
+ * Return:char
+ */
+char *_strchr(char *s, char c)
+{
+	int i;
+	char *j;
+
+	for (i = 0; i != '\0'; i++)
+	{
+		if (s[i] == c)
+			j = s + i;
+		
+		return (j);	
+	}	
+	return (0);
+}
