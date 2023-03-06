@@ -1,10 +1,4 @@
 #include "main.h"
-/**
- * is_prime_number - main function
- * Description: chek prime number
- * @n: char
- * Return: integer
- */
 
 int
 findPrime(int a, int b)
@@ -17,7 +11,8 @@ findPrime(int a, int b)
 		return (findPrime(a, b + 1));
 }
 
-int is_prime_number(int n)
+int
+is_prime_number(int n)
 {
 	int res = 0;
 
