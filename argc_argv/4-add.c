@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int ini = 0;
 
 	for (i = 1; i < argc; i++)
-	{	
+	{
 		while (argv[i][ini])
 		{
 			if (argv[i][ini] < 48 || argv[i][ini] > 59)
