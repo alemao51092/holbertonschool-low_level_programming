@@ -4,7 +4,7 @@
  * array_range - main function
  * Description: array of int
  * @min: ch1
- * @min: ch2
+ * @max: ch2
  * Return: p
  */
 int *array_range(int min, int max)
