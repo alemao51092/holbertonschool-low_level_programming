@@ -9,9 +9,9 @@
  */
 int *array_range(int min, int max)
 {
-	int ini;
+	unsigned int ini;
 	int *p;
-	int size = (max - min) + 1;
+	unsigned int size = (max - min) + 1;
 
 	p = malloc(sizeof(int) * size);
 
