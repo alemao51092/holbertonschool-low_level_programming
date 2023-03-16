@@ -4,7 +4,7 @@
  * _calloc - main function
  * Description: calloc
  * @nmemb: ch1
- * @size;ch2
+ * @size; ch2
  * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
