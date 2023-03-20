@@ -52,13 +52,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		countow++;
 	}
-	copyna = malloc(sizeof(countn + 1));
+	copyna = malloc(countn + 1);
 	if (copyna == NULL)
 	{
 		free(copyna);
 		return (NULL);
 	}
-	copyow = malloc(sizeof(countow + 1));
+	copyow = malloc(countow + 1);
 	if (copyow == NULL)
 	{
 		free(copyna);
