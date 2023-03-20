@@ -61,7 +61,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	copyow = malloc(sizeof(countow + 1));
 	if (copyow == NULL)
 	{
+		free(copyna);
 		free(copyow);
+		free(snoop);
 		return (NULL);
 	}
 	_strcpy(copyna, name);
