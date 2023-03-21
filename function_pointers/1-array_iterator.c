@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- * array iterator - main function
+ * array_iterator - main function
  * @array: ch
  * @size: tam
  * @action: ch1
