@@ -8,14 +8,14 @@
  * @argv: num2
  * Return: int
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc == 4)
 	{
 		int num1 = atoi(argv[1]);
 		int num2 = atoi(argv[3]);
 		int (*temp)(int, int);
-		
+
 		temp = get_op_func(argv[2]);
 		if ((*argv[2] == '/' || *argv[2] == '%') && num2 == 0)
 		{
