@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stlib.h>
-#include <sring.h>
+#include <stdlib.h>
+#include <string.h>
 #include "3-calc.h"
 /**
  * op_add - main function
