@@ -13,6 +13,8 @@ int sum_them_all(const unsigned int n, ...)
 	va_list parametros;
 
 	va_start(parametros, n);
+	if (n == 0)
+		return (0);
 
 	suma = 0;
 	for (ini = 0; ini < n; ini++)
