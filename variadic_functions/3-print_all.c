@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 	char *s;
 
 	va_start(args, format);
-	while (format[i] && format != NULL)
+	while (format != NULL && format[i])
 	{
 		if (i != 0 && coma == 1)
 			printf(", ");
