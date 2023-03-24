@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_string - main function
+ * print_strings main function
  * @separator: separator
  * @n: count
  * Description: printstring
@@ -14,8 +14,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *str;
 
 	va_start(parameters, n);
-	if (n == 0)
-		return;
 
 	for (i = 0; i < n; i++)
 	{
