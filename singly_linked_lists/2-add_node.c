@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * add1-node - adding node
+ * add-node - adding node
  * @head: adress of list
  * @str: new node
  * Return: head
