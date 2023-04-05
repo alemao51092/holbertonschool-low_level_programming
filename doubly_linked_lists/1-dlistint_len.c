@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- * distint_len - main function
+ * dlistint_len - main function
  * Description: return number of elements
  * @h: pointer tu a point
  * Return: count
