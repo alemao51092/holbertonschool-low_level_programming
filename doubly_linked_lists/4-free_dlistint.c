@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
-* free_list - main function
+* free_dlistint - main function
 * @head: a pointer
 * Description: free list
 */
