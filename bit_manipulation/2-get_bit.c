@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
- 
- int
+int
  get_bit(unsigned long int n, unsigned long int index)
 {
 	unsigned int value;
